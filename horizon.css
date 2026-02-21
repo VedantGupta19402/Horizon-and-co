@@ -5,6 +5,9 @@
     color: #9E8C74;
     background-color: #D3D0CC;
 }
+.body{
+    overflow: hidden;
+}
 .main{
     width: 100vw;
     display: flex;
@@ -74,3 +77,46 @@ a:hover{
     object-fit: cover;
     border-radius: 10%;
 } 
+.page2{
+    height: 100vh;
+    width: 100vw;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.about{
+    height: 100vh;
+    width: 100vw;
+  display: flex;
+  align-items: center;
+}
+.about1{
+    height: 90vh;
+    width: 73vw;
+    margin: 25px;
+}
+.aimg{
+    height: 100%;
+    width: 100%;
+}
+.about2{
+    height: 50vh;
+    width: 35vw;
+    background-color: pink;
+    margin: 25px;
+}
+.p1{
+    font-size: 25px;
+}
+.page3{
+    height: 100vh;
+    width: 100vw;
+}
+.head2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
