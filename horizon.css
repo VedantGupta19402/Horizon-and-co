@@ -58,7 +58,8 @@ a {
 
 a:hover {
     text-decoration: underline;
-    text-decoration-color: #9E8C74;
+    /* text-decoration-color: #9E8C74; */
+    color: rgb(57, 30, 30);
 }
 
 .horizon {
@@ -128,7 +129,7 @@ a:hover {
 }
 
 .page3 {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     margin-top: -20px;
 }
@@ -141,13 +142,11 @@ a:hover {
 }
 
 .menu {
-    height: 100vh;
+    min-height: 30vh;
     width: 100vw;
     margin-top: 15px;
     display: flex;
-
 }
-
 .americano {
     height: 232px;
     width: 25vw;
@@ -156,11 +155,11 @@ a:hover {
     display: flex;
     align-items: center;
     gap: 10px;
-
 }
-
-.americano:hover {
-    box-shadow: 0 8px 25px rgba(207, 23, 23, 0);
+.row{
+    display: flex;
+    gap: 30px;
+    margin-left: 50px ;
 }
 
 .am1 {
